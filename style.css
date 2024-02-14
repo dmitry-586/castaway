@@ -1,0 +1,432 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #191919;
+    margin: 0;
+}
+
+.header {
+    padding: 26px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline;
+}
+
+.headerMenu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+a {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    outline: none;
+    color: #118DA8;
+}
+
+.firstSection {
+    color: white;
+    display: block;
+    padding: 30px 50px 0 32px;
+}
+
+.common {
+    margin: 0 20px;
+    display: flex;
+}
+
+.firstSectionBlocks {
+    margin: 0 60px;
+    max-width: 530px;
+}
+
+.block1 {
+    display: block;
+    height: 330px;
+}
+
+.block2 {
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+}
+
+.block3 {
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    margin-right: 25px;
+    background-image: url(image/poloska.svg);
+}
+
+.block4 {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+}
+
+.blocks3-4 {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.block5 {
+    padding-left: 22px;
+}
+
+.firstSectionIcons {
+    display: flex;
+    gap: 17px;
+}
+
+.b5Text {
+    margin-bottom: 17px;
+}
+
+.secondSection {
+    display: block;
+    margin: 100px 70px 0 70px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.secondSectionText {
+    font-size: 64px;
+}
+
+.button:hover {
+    background-color: #44acc4;
+}
+
+.button {
+    background-color: #118DA8;
+    font-size: 17px;
+    color: white;
+    width: 178px;
+    height: 51px;
+}
+
+.frame4 {
+    border-radius: 32px;
+    background: black;
+    padding: 40px;
+    margin-bottom: 60px;
+}
+
+.inside {
+    display: flex;
+}
+
+.unit {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 53px;
+}
+
+.Gear {
+    width: 73px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #191919;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 48px;
+}
+
+.tips {
+    width: 136px;
+    height: 27px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #191919;
+    font-size: 18px;
+    color: white;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 48px;
+}
+
+.Episode3 {
+    display: flex;
+    color: #118DA8;
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.e3 {
+    font-size: 18px;
+    margin-left: 9px;
+}
+
+.question {
+    font-size: 64px;
+    margin-bottom: 28px;
+}
+
+.text4 {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.ved {
+    width: 208px;
+    height: 51px;
+    border-radius: 6px;
+    background: #118DA8;
+    color: white;
+}
+
+.ved:hover {
+    background-color: #44acc4;
+}
+
+.frame5 {
+    margin: 160px 20px 0 20px;
+}
+
+.common2 {
+    display: flex;
+    margin: 100px 50px 100px 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 148px 0px;
+    margin-right: 60px;
+}
+
+.strelka {
+    border-radius: 400px;
+    background: #118DA8;
+    width: 112px;
+    height: 112px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.strelka:hover {
+    background-color: #44acc4;
+}
+
+.myt {
+    color: #118DA8;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.JP {
+    font-size: 65px;
+    margin-bottom: 28px;
+}
+
+.text51 {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 22px;
+    margin-bottom: 33px;
+    margin-right: 34px;
+}
+
+.text52 {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 22px;
+    margin-right: 62px;
+    margin-bottom: 18px;
+}
+
+.forms {
+    display: flex;
+    margin: 100px 50px 0 50px;
+    border-radius: 32px;
+    background: #000;
+    color: white;
+    justify-content: space-between;
+}
+
+.Text1 {
+    margin-top: 60px;
+    margin-left: 60px;
+    color: #118DA8;
+    font-size: 18px;
+}
+
+.Text2 {
+    color: #FFF;
+    font-size: 72px;
+    margin-left: 60px;
+    margin-bottom: 143px;
+    width: 431px;
+    font-weight: 400;
+    line-height: 79.2px
+}
+
+.frame6 {
+    margin: 0 20px;
+    height: 587px;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Text {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text] {
+    border-radius: 6px;
+    border: 1px solid #191919;
+    background: #191919;
+    width: 522px;
+    height: 82px;
+    flex-shrink: 0;
+    padding: 0 20px;
+}
+
+.inputName {
+    margin: 10px 60px 20px 0;
+    color: white;
+}
+
+.submit {
+    border-radius: 6px;
+    background: #118DA8;
+    color: white;
+    width: 87px;
+    height: 48px;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #44acc4;
+}
+
+.i123 {
+    display: flex;
+    width: 147px;
+    height: 91px;
+    margin-bottom: -22px;
+    margin-left: -38px;
+}
+
+.frame7 {
+    margin: 0 20px;
+    flex-wrap: wrap;
+}
+
+.otzivi {
+    margin: 100px 50px 100px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.otziv {
+    color: white;
+    border-radius: 32px;
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.zvezdi {
+    margin-top: 54px;
+    margin-left: 50px;
+}
+
+.text71 {
+    margin-top: 21px;
+    margin-left: 50px;
+    margin-right: 60px;
+    color: #FFF;
+    font-size: 36px;
+}
+
+.text72 {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    margin-top: 19px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    margin: 0 20px;
+    padding: 100px 50px 100px 50px;
+}
+
+.footer {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.castaway {
+    margin-bottom: 20px;
+}
+
+.blockf2 {
+    display: grid;
+    gap: 10px;
+}
+
+.blockf3 {
+    display: grid;
+    gap: 10px;
+}
+
+.block-image {
+    display: flex;
+    align-items: flex-start;
+    gap: 17px;
+    margin-right: 220px;
+}
+
+.instagram {
+    margin-right: 6px;
+}
+
+.error .inputName {
+    display: block;
+    border-color: red;
+    margin-bottom: 10px
+}
